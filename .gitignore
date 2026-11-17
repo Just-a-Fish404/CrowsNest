@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments / local environment data
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+*.local
+
+# PyInstaller output (publish the .exe as a GitHub Release asset instead)
+build/
+dist/
+*.spec
+*.exe
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Your own scan output
+/reports/
+crowsnest_results.csv
+*.log
